@@ -1,0 +1,16 @@
+{
+  "name": "crudjs",
+  "version": "1.0.0",
+  "description": "Rest API crud operations",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "Pavan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.8.0",
+    "mongoose": "^6.4.4"
+  }
+}
