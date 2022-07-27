@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const express = require('express')
 const url = 'mongodb://localhost/PavanDB'
 
-const app = express();
+const app = express(); //intialise express
 
 mongoose.connect(url,{useNewUrlParser : true})
 const con = mongoose.connection;//connection handler
